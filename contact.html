@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Rinash Fashion</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fafafa;
+        color: #333;
+      }
+
+      .contact-section {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 40px 30px;
+        background-color: #fff;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+      }
+
+      .contact-section h1 {
+        font-size: 2.6rem;
+        color: #b22222;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .contact-section p {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      input,
+      textarea {
+        padding: 12px 15px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        transition: border-color 0.3s ease;
+      }
+
+      input:focus,
+      textarea:focus {
+        border-color: #b22222;
+      }
+
+      button {
+        background-color: #b22222;
+        color: #fff;
+        padding: 12px 18px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #8b1a1a;
+      }
+
+      @media (max-width: 768px) {
+        .contact-section {
+          padding: 30px 20px;
+        }
+
+        .contact-section h1 {
+          font-size: 2.2rem;
+        }
+
+        input,
+        textarea,
+        button {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contact-section">
+      <h1>Contact Rinash Fashion</h1>
+      <p>
+        We’d love to hear from you! Whether you have a question, want to request
+        a custom design, or just want to say hello — feel free to get in touch
+        using the form below.
+      </p>
+
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Full Name" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email Address"
+          required
+        />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea
+          name="message"
+          rows="6"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p style="margin-top: 30px; text-align: center">
+        📍 Located in Nima, Accra, Ghana<br />
+        📞 Call or WhatsApp: <strong>+233 XXX XXX XXX</strong><br />
+        📧 Email: <strong>info@rinashfashion.com</strong>
+      </p>
+    </div>
+  </body>
+</html>

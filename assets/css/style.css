@@ -80,6 +80,13 @@ a {
   text-decoration: none;
 }
 
+.logo img {
+  width: 60px; /* You can adjust the size as needed */
+  height: 60px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle area without distortion */
+}
+
 a,
 img,
 span,
